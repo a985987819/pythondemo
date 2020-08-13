@@ -27,6 +27,8 @@ for img in soup.select('img'):
     else:
         img_list.append(img.attrs['src'])
 
+
+# 初始化下载文件目录
 image_dir = os.path.join(os.curdir,'images')
 
 
